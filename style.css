@@ -251,8 +251,36 @@ h2:nth-child(3)
     transform: rotate(60deg) translateY(-150px);
 }
 
-.wrapper .container-01 .clock .indicators div:nth-child(3)
+.wrapper .container-01 .clock .indicators div:nth-child(3)::before
 {
-    
+    content: '3';
+    font-weight: 700;
+    position: absolute;
+    transform: rotate(-90deg) translate(-10px, -4px);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.3);
 }
 
+.wrapper .container-01 .clock .indicators div:nth-child(3)
+{
+    background: #3498db;
+    transform: rotate(9deg) translateY(-150px);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(4){
+    transform: rotate(120deg) translateY(-150px);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(5){
+    transform: rotate(150deg) translateY(-150px);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(6)::before
+{
+    content: '6';
+    font-weight: 700;
+    position: absolute;
+    transform: rotate(180deg) translate(6px, -10px);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
