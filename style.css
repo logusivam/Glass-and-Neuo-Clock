@@ -217,3 +217,18 @@ h2:nth-child(3)
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
+
+/* indicators */
+.wrapper .container-01 .clock .indicators
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper  .container-01 .clock .indicators div
+{
+    position: absolute;
+    
+}
