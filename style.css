@@ -230,5 +230,11 @@ h2:nth-child(3)
 .wrapper  .container-01 .clock .indicators div
 {
     position: absolute;
-    
+    width: 2px;
+    height: 2px;
+    background: #404040;
+    user-select: none;
+    cursor: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-left: 1px solid rgba;
 }
