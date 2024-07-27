@@ -301,3 +301,30 @@ h2:nth-child(3)
     transform: rotate(240deg) translateY(-150px);
 }
 
+.wrapper .container-01 .clock .indicators div:nth-child(9)::before
+{
+    content: '9';
+    font-weight: 700;
+    position: absolute;
+    transform: rotate(90deg) translate(8px, 2px);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(9)
+{
+    background: #3498db;
+    transform: rotate(270deg) translateY(-150px);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(10)
+{
+    transform: rotate(300deg) translateY(-150px);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(11)
+{
+    transform: rotate(330deg) translateY(-150px);
+}
+
+
