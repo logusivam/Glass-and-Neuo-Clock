@@ -115,3 +115,17 @@ h2:nth-child(3)
     clip-path: circle(22% at 78% 80%);
 }
 
+.wrapper .container-01 .clock
+{
+    width: 350px;
+    height:350px;
+    z-index: 1;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 4px solid #091921;
+    border-radius: 50%;
+    
+}
