@@ -179,3 +179,30 @@ h2:nth-child(3)
     border-radius: 50%;
 }
 
+/* hour hand */
+.wrapper .container-01 .clock .hour .hr::before
+{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background: #ff105e;
+    opacity: 0.8;
+    z-index: 9;
+    border-radius: 6px 6px 0 0;
+}
+
+/* minute hand */
+.wrapper .container-01 .clock .min .mn::before
+{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background: #fff;
+    opacity: 0.8;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+
+/* second hand */
