@@ -127,5 +127,8 @@ h2:nth-child(3)
     background: rgba(255, 255, 255, 0.05);
     border: 4px solid #091921;
     border-radius: 50%;
-    
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
 }
