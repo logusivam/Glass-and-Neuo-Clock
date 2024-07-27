@@ -151,7 +151,7 @@ h2:nth-child(3)
     position: absolute;
 }	
 
-.wrapper .container-01 .clock .hour .hr
+.wrapper .container-01 .clock .hour, .hr
 {
     width: 160px;
     height: 160px;
