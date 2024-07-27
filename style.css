@@ -206,3 +206,14 @@ h2:nth-child(3)
 }
 
 /* second hand */
+.wrapper .container-01 .clock .sec .sc::before
+{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background: #3498db;
+    opacity: 0.8;
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+}
