@@ -236,5 +236,23 @@ h2:nth-child(3)
     user-select: none;
     cursor: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    border-left: 1px solid rgba;
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
 }
+
+
+/* clock numbers */
+.wrapper .container-01 .clock .indicators div:nth-child(1)
+{
+    transform: rotate(30deg) translateY(-150px);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(2)
+{
+    transform: rotate(60deg) translateY(-150px);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(3)
+{
+    
+}
+
