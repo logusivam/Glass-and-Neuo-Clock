@@ -210,8 +210,8 @@ h2:nth-child(3)
 {
     content: '';
     position: absolute;
-    width: 4px;
-    height: 90px;
+    width: 2px;
+    height: 150px;
     background: #3498db;
     opacity: 0.8;
     z-index: 12;
