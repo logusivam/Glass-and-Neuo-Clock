@@ -327,4 +327,20 @@ h2:nth-child(3)
     transform: rotate(330deg) translateY(-150px);
 }
 
+.wrapper .container-01 .clock .indicators div:nth-child(12)::before
+{
+    content: '12';
+    font-weight: 700;
+    position: absolute;
+    transform: rotate(0deg) translate(-8px, 10px);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.wrapper .container-01 .clock .indicators div:nth-child(12)
+{
+    background: #3498db;
+    opacity: 0.5;
+    transform: rotate(360deg) translateY(-150px);
+}
 
