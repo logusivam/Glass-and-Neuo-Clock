@@ -344,3 +344,11 @@ h2:nth-child(3)
     transform: rotate(360deg) translateY(-150px);
 }
 
+.wrapper .container-01 p
+{
+    z-index: 12;
+    margin: 20px auto 10px;
+    position: relative;
+    color: #fff;
+    
+}
