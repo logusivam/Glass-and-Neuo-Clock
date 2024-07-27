@@ -295,3 +295,9 @@ h2:nth-child(3)
 {
     transform: rotate(210deg) translateY(-150px);
 }
+
+.wrapper .container-01 .clock .indicators div:nth-child(8)
+{
+    transform: rotate(240deg) translateY(-150px);
+}
+
