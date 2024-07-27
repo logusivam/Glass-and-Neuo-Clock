@@ -264,7 +264,7 @@ h2:nth-child(3)
 .wrapper .container-01 .clock .indicators div:nth-child(3)
 {
     background: #3498db;
-    transform: rotate(9deg) translateY(-150px);
+    transform: rotate(90deg) translateY(-150px);
 }
 
 .wrapper .container-01 .clock .indicators div:nth-child(4){
