@@ -350,5 +350,9 @@ h2:nth-child(3)
     margin: 20px auto 10px;
     position: relative;
     color: #fff;
-    
+}
+
+.wrapper .container-01 p span
+{
+    font-weight: 700;
 }
