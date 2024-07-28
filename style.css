@@ -546,8 +546,9 @@ h2:nth-child(3)
     content: '12';
     font-weight: 500;
     position: absolute;
-    color: #fff;
     transform: rotate(0deg) translate(-8px, 5px);
+    font-size: 20px;
+    color: #fff;
     opacity: 0.3;
 }
 
