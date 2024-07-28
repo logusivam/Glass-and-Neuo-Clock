@@ -558,17 +558,40 @@ h2:nth-child(3)
     transform: rotate(360deg) translateY(-100px);
 }
 
+/* min, sec, hour hand  */
 .wrapper .container-02 .clock .sec-hand,
 .wrapper .container-02 .clock .min-hand,
 .wrapper .container-02 .clock .hour-hand {
     position: absolute;	
 }
+
+/* second hand */
 .wrapper .container-02 .clock .sec-hand, 
 .wrapper .container-02 .clock .sec-hand .sec {
     width: 180px;
     height: 180px;
     z-index: 6;
 }
+
+/* minute hand */
+.wrapper .container-02 .clock .min-hand, 
+.wrapper .container-02 .clock .min-hand .min
+{
+    width: 140px;
+    height: 140px;
+    z-index: 5;
+}
+
+/* hour hand */
+.wrapper .container-02 .clock .hour-hand, 
+.wrapper .container-02 .clock .hour-hand .hr
+{
+    width: 110px;
+    height: 110px;
+    z-index: 4;
+}
+
+
 
 
 
