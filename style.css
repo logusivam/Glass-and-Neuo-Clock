@@ -428,3 +428,28 @@ h2:nth-child(3)
     z-index: 10;
     position: absolute;
 }
+
+.wrapper .container-02 .clock .indicators
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .container-02 .clock .indicators div
+{
+    position: absolute;
+    width: 2px;
+    height: 5px;
+    border-radius: 3px solid #091921;
+    box-shadow: 0 -3px 3px rgba(255, 255, 255, 0.05),
+                inset 0 -3px 3px rgba(255, 255, 255, 0.05),
+                0 3px 3px rgba(0,0,0,0.7),
+                inset 0 3px 3px rgba(0,0,0,0.4);
+}
+
+.wrapper .container-02 .clock .indicators div:nth-child(1)
+{
+    transform: rotate(30deg) translateY(-100px);
+}
