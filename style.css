@@ -591,7 +591,13 @@ h2:nth-child(3)
     z-index: 4;
 }
 
-
+.wrapper .container-02 .clock .sec-hand .sec,
+.wrapper .container-02 .clock .min-hand .min,
+.wrapper .container-02 .clock .hour-hand .hr {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
 
 
 
