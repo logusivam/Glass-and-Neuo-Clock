@@ -531,6 +531,34 @@ h2:nth-child(3)
     transform: rotate(270deg) translateY(-100px);
 }
 
+.wrapper .container-02 .clock .indicators div:nth-child(10)
+{
+    transform: rotate(300deg) translateY(-100px);
+}
+
+.wrapper .container-02 .clock .indicators div:nth-child(11)
+{
+    transform: rotate(330deg) translateY(-100px);
+}
+
+.wrapper .container-02 .clock .indicators div:nth-child(12)::before
+{
+    content: '12';
+    font-weight: 500;
+    position: absolute;
+    color: #fff;
+    transform: rotate(0deg) translate(-8px, 5px);
+    opacity: 0.3;
+}
+
+.wrapper .container-02 .clock .indicators div:nth-child(12)
+{
+    background: #3498db;
+    transform: rotate(360deg) translateY(-100px);
+}
+
+
+
 
 
 
