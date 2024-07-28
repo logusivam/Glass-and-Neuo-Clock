@@ -697,4 +697,11 @@ h2:nth-child(3)
         top: 47%;
         width: 20%;
     }
+    .wrapper {
+            flex-direction: column;
+        }
+    .wrapper .container-02 
+    {
+        margin-top: 70px;
+    }
 }
