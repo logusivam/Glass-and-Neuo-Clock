@@ -591,6 +591,7 @@ h2:nth-child(3)
     z-index: 4;
 }
 
+/* clock hands */
 .wrapper .container-02 .clock .sec-hand .sec,
 .wrapper .container-02 .clock .min-hand .min,
 .wrapper .container-02 .clock .hour-hand .hr {
@@ -599,6 +600,35 @@ h2:nth-child(3)
     justify-content: center;
 }
 
+/* second hand */
+.wrapper .container-02 .clock .sec-hand .sec::before
+{
+    position: absolute;
+    content: '';
+    height: 110px;
+    width: 3px;
+    background: #3498db;
+}
 
+.wrapper .container-02 .clock .sec-hand .sec::after
+{
+    position: absolute;
+    content: '';
+    height: 35px;
+    width: 7px;
+    background: #3498db;
+    top: 105px;
+    border-radius: 5px;
+}
 
-
+/* minute hand dsign */
+.wrapper .container-02 .clock .min-hand .min::before
+{
+    position: absolute;
+    content: '';
+    width: 1px;
+    top: -15px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 60px solid #fff;
+}
