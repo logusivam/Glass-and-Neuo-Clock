@@ -437,6 +437,7 @@ h2:nth-child(3)
     align-items: center;
 }
 
+/* numbers in thw clock */
 .wrapper .container-02 .clock .indicators div
 {
     position: absolute;
