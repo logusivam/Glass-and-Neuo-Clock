@@ -689,6 +689,12 @@ h2:nth-child(3)
     h2:nth-child(1)
     {
         left: 6%;
+        top: 0%;
     }
-    
+    h2:nth-child(3)
+    {
+        left: 3%;
+        top: 47%;
+        width: 20%;
+    }
 }
