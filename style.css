@@ -639,7 +639,7 @@ h2:nth-child(3)
     content: '';
     width: 3px;
     top: 40px;
-    border-left: 20px solid transparent;
+    border-left: 2px solid transparent;
     border-right: 2px solid transparent;
     border-bottom: 30px solid #fff;
 }
