@@ -465,7 +465,7 @@ h2:nth-child(3)
     content: '3';
     font-weight: 500;
     position: absolute;
-    transform: rotate(-90deg) translateY(-5px, -4px);
+    transform: rotate(-90deg) translate(-5px, -4px);
     font-size: 20px;
     color: #fff;
     opacity: 0.3;
@@ -475,5 +475,23 @@ h2:nth-child(3)
 {
     background: #3498db;
     transform: rotate(90deg) translateY(-100px);
+}
+
+.wrapper .container-02 .clock .indicators div:nth-child(4)
+{
+    transform: rotate(120deg) translateY(-100px);
+}
+
+.wrapper .container-02 .clock .indicators div:nth-child(5)
+{
+    transform: rotate(150deg) translateY(-100px);
+}
+
+.wrapper .container-02 .clock .indicators div:nth-child(6)::before
+{
+    content: '6';
+    font-weight: 500;
+    position: absolute;
+    transform: rotate(180deg) translate(6px, -10px);
 }
 
