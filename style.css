@@ -679,3 +679,16 @@ h2:nth-child(3)
     font-weight: 700;
 }
 
+/* responsive */
+@media(max-width: 991px)
+{
+    h1
+    {
+        display: none;
+    }
+    h2:nth-child(1)
+    {
+        left: 6%;
+    }
+    
+}
