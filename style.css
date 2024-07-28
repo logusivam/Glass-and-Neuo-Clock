@@ -558,7 +558,17 @@ h2:nth-child(3)
     transform: rotate(360deg) translateY(-100px);
 }
 
-
+.wrapper .container-02 .clock .sec-hand,
+.wrapper .container-02 .clock .min-hand,
+.wrapper .container-02 .clock .hour-hand {
+    position: absolute;	
+}
+.wrapper .container-02 .clock .sec-hand, 
+.wrapper .container-02 .clock .sec-hand .sec {
+    width: 180px;
+    height: 180px;
+    z-index: 6;
+}
 
 
 
