@@ -470,3 +470,9 @@ h2:nth-child(3)
     opacity: 0.3;
 }
 
+.wrapper .container-02 .clock .indicators div:nth-child(3)
+{
+    background: #3498db;
+    transform: rotate(90deg) translateY(-100px);
+}
+
