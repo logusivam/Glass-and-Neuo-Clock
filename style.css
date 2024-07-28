@@ -643,3 +643,39 @@ h2:nth-child(3)
     border-right: 2px solid transparent;
     border-bottom: 30px solid #fff;
 }
+
+/* hour hand */
+.wrapper .container-02 .clock .hour-hand .hr::before
+{
+    position: absolute;
+    content: '';
+    width: 1px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 35px solid #ff105e;
+}
+
+.wrapper .container-02 .clock .hour-hand .hr::after
+{
+    position: absolute;
+    content: '';
+    width: 3px;
+    top: 35px;
+    border-left: 2px solid transparent;
+    border-bottom: 25px solid #ff105e;
+}
+
+/* clock caption */
+.wrapper .container-02 p
+{
+    z-index: 12;
+    margin: 20px auto 10px;
+    position: relative;
+    color: #fff;
+}
+
+.wrapper .container-02 p span
+{
+    font-weight: 700;
+}
+
