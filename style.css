@@ -356,3 +356,75 @@ h2:nth-child(3)
 {
     font-weight: 700;
 }
+
+/* clock 02 */
+.wrapper .container-02
+{
+    position: relative;
+    width: 50%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* first cirle for the clock */
+.wrapper .container-02 .clock
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
+                inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+                0 15px 15px rgba(0,0,0,0.7),
+                inset 0 15px 15px rgba(0,0,0,0.4);
+}
+
+/* sceond inner circle */
+.wrapper .container-02 .clock::before
+{
+    position: absolute;
+    content: '';
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(255,255,255,0.05),
+        inset 0 -15px 15px rgba(255,255,255,0.05),
+        0 15px 15px rgba(0,0,0,0.7),
+        inset 0 15px 15px rgba(0,0,0,0.4);
+}
+
+.wrapper .container-02 .clock::after
+{
+    position: absolute;
+    content: '';
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(255,255,255,0.05),inset 0 -15px 15px rgba(255,255,255,0.05),0 15px 15px rgba(0,0,0,0.7),inset 0 15px 15px rgba(0,0,0,0.4);
+}
+
+/* centre nut */
+.wrapper .container-02 .clock .center-nut
+{
+    height: 15px;
+    width: 15px;
+    background: #404040;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.wrapper .container-02 .clock .center-nut2
+{
+    height: 9px;
+    width: 9px;
+    background: #3498db;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+}
