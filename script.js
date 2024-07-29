@@ -15,7 +15,7 @@ setInterval(() => {
 });
 
 const sec = document.querySelector('.sec-hand .sec');
-const min = document.querySelector('mn-hand .min');
+const min = document.querySelector('.min-hand .min');
 const hour = document.querySelector('.hour-hand .hr');
 
 setInterval(function(){
