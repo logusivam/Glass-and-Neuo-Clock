@@ -213,7 +213,6 @@ h2:nth-child(3)
     width: 2px;
     height: 150px;
     background: #3498db;
-    opacity: 0.8;
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
