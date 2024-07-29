@@ -23,5 +23,7 @@ setInterval(function(){
     let secs = time.getSeconds() * 6;
     let mins = time.getMinutes() * 6;
     let hours = time.getHours() * 30;
+
+    sec.style.transform = `rotateZ(${secs}deg)`;
     
 })
