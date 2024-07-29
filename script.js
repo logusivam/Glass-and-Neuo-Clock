@@ -30,8 +30,8 @@ setInterval(function(){
 });
 
 VanillaTilt.init(document.querySelector("#clock-01"), {
-    max: 15,
+    max: 25,
     speed: 400,
     glare: true,
-    "max-glare": 0.2,
+    "max-glare": 1.2,
 });
