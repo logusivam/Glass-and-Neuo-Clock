@@ -360,7 +360,7 @@ h2:nth-child(3)
 .wrapper .container-02
 {
     position: relative;
-    width: 50%;
+    width: 50%; 
     min-height: 80vh;
     display: flex;
     align-items: center;
