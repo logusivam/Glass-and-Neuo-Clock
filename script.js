@@ -29,7 +29,8 @@ setInterval(function(){
     hour.style.transform = `rotateZ(${hours + (mins/12)}deg)`;
 });
 
-VanilaTilt.init(document.querySelector("#clock-01"), {
+
+VanillaTilt.init(document.querySelector("#clock-01"), {
     max: 15,
     speed: 400,
     glare: true,
