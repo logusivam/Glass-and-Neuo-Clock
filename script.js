@@ -8,4 +8,20 @@ setInterval(() => {
     let hh = day.getHours() * 30;
     let mm = day.getMinutes() * deg;
     let ss = day.getSeconds() * deg;
+
+    hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
+    mn.style.transform = `rotateZ(${mm}deg)`;
+    sc.style.transform = `rotateZ(${ss}deg)`;
+});
+
+const sec = document.querySelector('.sec-hand .sec');
+const min = document.querySelector('mn-hand .min');
+const hour = document.querySelector('.hour-hand .hr');
+
+setInterval(function(){
+    let time = new Date();
+    let secs = time.getSeconds() * 6;
+    let mins = time.getMinutes() * 6;
+    let hours = time.getHours() * 30;
+    
 })
